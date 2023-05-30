@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.arrow {
+    fill: green;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.arrowcontainer {
+    width: 100%;
+    height: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 50%;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+}

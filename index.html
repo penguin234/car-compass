@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="static/css/style.css" type="text/css">
+
+        <script src="static/js/drawarrow.js"></script>
+        <script src="static/js/updateinfo.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="arrowcontainer">
+                <svg id="arrowviewbox" viewBox="-1 -1 2 2">
+                    
+                </svg>
+            </div>
+
+            <p>
+                거리: <span id="distance"></span>m
+            </p>
+        </div>
+
+        <script>
+            UpdateInfo(Math.PI / 2, 5);
+        </script>
+    </body>
+</html>
